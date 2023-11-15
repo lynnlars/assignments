@@ -1,0 +1,61 @@
+html,body{
+    margin: 3px;
+    padding: 3px;
+}
+
+#grid-container{
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr;
+}
+
+header{
+    text-align: center;
+    font-size:xx-large;
+    background-color: crimson;
+    border: 5px solid white;
+    border-radius: 5px;
+    height: 50px;
+    grid-column: 1/-1;
+}
+
+#pestOne{
+    text-align: center;
+    font-size: x-large;
+    background-color: blue;
+    border: 5px solid white;
+    border-radius: 5px;
+    height: 600px;
+    width: 100%;
+    grid-column: 1/2;
+}
+
+#pestTwo{
+    text-align: center;
+    font-size: x-large;
+    background-color: blue;
+    border: 5px solid white;
+    border-radius: 5px;
+    height: 600px;
+    width: 100%;
+    grid-column: 2/3;
+}
+
+#pestThree{
+    text-align: center;
+    font-size: x-large;
+    background-color: blue;
+    border: 5px solid white;
+    border-radius: 5px;
+    height: 600px;
+    width: 100%;
+    grid-column: 3/4;
+}
+
+#flex-container{
+    background-color: crimson;
+    border: 5px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    grid-column: 1/-1;
+}
