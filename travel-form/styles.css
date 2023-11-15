@@ -1,0 +1,14 @@
+html, body {
+    padding: 5px;
+    margin: 5px;
+}
+
+
+#welcome{
+    text-align: center;
+}
+
+
+#form{
+    text-align: center;
+}

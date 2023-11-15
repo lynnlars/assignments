@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Travel Form</title>
+    </head>
+    <body>
+        <h4 id = "welcome">Welcome to Hot Mess Airlines! If you would like to travel with us, please fill out this form below.</h4>
+        <form name = "myForm" id = "form">
+            First Name: <input type= "text" name = "firstName" id = "nameA">
+            Last Name: <input type= "text" name = "lastName" id = "nameB">
+            Age: <input type = "number" name = "age" id = "number">
+            Male: <input type = "radio" name = "gender" value = "Male" id = "man">
+            Female: <input type = "radio" name = "gender" value = "Female" id = "woman">
+            
+            <h3>Please check all dietary restrictions</h3>
+            Vegetarian <input type = "checkbox" name = "food" value = "Vegetarian" id = "veg">
+            Lactose-intolerant<input type = "checkbox" name = "food" value = "Lactose-intolerant" id = "lactose">
+            Gluten Free<input type = "checkbox" name = "food" value = "Gluten Free" id = "gluten">
+
+            <select name = "city">
+                <option value = "Chicago">Chicago</option>
+                <option value = "Detroit">Detroit</option>
+                <option value = "Madison">Madison</option>
+            </select>
+
+            <button id = "Submit">Submit Info</button>
+        </form>
+        <link rel = "stylesheet" href = "styles.css">
+        <script src = "index.js"></script>
+    </body>
+</html>
